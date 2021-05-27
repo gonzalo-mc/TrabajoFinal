@@ -1,0 +1,29 @@
+.contenedor__footer{
+    height: 140px;
+    background-color: rgb(233, 233, 233);
+    // padding: 10px 70px 10px 70px;
+    .pie1{
+        margin-top: 1.5rem;
+        // font-size: 10px;
+        .piecolor1{
+            color: $color-brand;
+        }
+    }
+    .pie2{
+        margin-top: 3rem;
+        
+    }
+    .pie3{
+        margin-top: 1.5rem;
+        .piecolor3{
+            padding: 0rem 0.5rem 0rem 0.5rem;
+            color: grey;
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+    a:hover{
+        color: blue;
+    }
+}

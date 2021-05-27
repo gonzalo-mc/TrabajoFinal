@@ -1,0 +1,29 @@
+.titleQuienes{
+    width: 100%;
+    height: 350px;
+    background-image:url(../img/quienesSomos/epoxyRiver.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -2;
+    // .tituloDeContacto{
+    //     margin-top: 3rem;
+    // }
+    h1{
+        color: white;
+        font-size: 125px;
+        margin: 10rem 0rem 0.5rem 0rem;
+    }
+}
+.imgQuienesS{
+    height: 500px;
+    margin: 7rem 1rem 7rem 5rem;
+    background-image: url(../img/quienesSomos/nuestroTaller.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textoQuienesS{
+    height: 500px;
+    margin: 12rem 5rem 7rem 2rem;
+}

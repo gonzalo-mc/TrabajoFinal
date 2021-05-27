@@ -1,0 +1,28 @@
+.titleEquipo{
+    width: 100%;
+    height: 350px;
+    background-image:url(../img/equipo/equipoHero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -2;
+    // .tituloDeContacto{
+    //     margin-top: 3rem;
+    // }
+    h1{
+        color: white;
+        font-size: 125px;
+        margin: 10rem 0rem 0.5rem 0rem;
+    }
+}
+
+.nombresEquipo{
+    margin: 3rem 0rem 0.5rem 0rem;
+    padding: 1rem 1rem 1rem 1rem;
+    h3{
+        margin-bottom: 1rem;
+    }
+    p{
+        margin-top: 1rem;
+    }
+}
