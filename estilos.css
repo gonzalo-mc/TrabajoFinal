@@ -12719,53 +12719,188 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos], [data-aos][data-aos][data-
   background-repeat: no-repeat;
 }
 
-.contenedor-textoMain {
+.textoMain {
   margin-left: 3rem;
   padding: 1rem;
-  width: 650px;
+  width: auto;
   height: 300px;
 }
 
-.contenedor-textoMain h1, .contenedor-textoMain .h1 {
+.textoMain h1, .textoMain .h1 {
   color: orange;
 }
 
-.contenedor-textoMain p {
+.textoMain p {
   color: black;
 }
 
 .contenedor__footer {
-  height: 140px;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
   background-color: #e9e9e9;
 }
 
-.contenedor__footer .pie1 {
+.contenedor__footer .logoFooter {
   margin-top: 1.5rem;
 }
 
-.contenedor__footer .pie1 .piecolor1 {
-  color: rgba(26, 26, 92, 0.959);
+.contenedor__footer .logoFooter h1, .contenedor__footer .logoFooter .h1 {
+  margin: 0px;
+  font-size: xx-large;
 }
 
-.contenedor__footer .pie2 {
-  margin-top: 3rem;
-}
-
-.contenedor__footer .pie3 {
+.contenedor__footer .atajos1 {
   margin-top: 1.5rem;
 }
 
-.contenedor__footer .pie3 .piecolor3 {
-  padding: 0rem 0.5rem 0rem 0.5rem;
+.contenedor__footer .atajos1 ul {
+  list-style: none;
+  line-height: 2rem;
+}
+
+.contenedor__footer .atajos1 a {
+  text-decoration: none;
   color: grey;
 }
 
-.contenedor__footer .pie3 a {
+.contenedor__footer .atajos1 a:hover {
+  color: black;
+}
+
+.contenedor__footer .atajos2 {
+  margin-top: 1.5rem;
+}
+
+.contenedor__footer .atajos2 ul {
+  list-style: none;
+  line-height: 2rem;
+}
+
+.contenedor__footer .atajos2 a {
+  text-decoration: none;
+  color: grey;
+}
+
+.contenedor__footer .atajos2 a:hover {
+  color: black;
+}
+
+.contenedor__footer .contact {
+  margin-top: 1.5rem;
+  color: grey;
+}
+
+.contenedor__footer .contact ul {
+  list-style: none;
+}
+
+.contenedor__footer .contact ul i {
+  margin-right: 0.6rem;
+}
+
+.contenedor__footer .contact ul p {
+  margin-bottom: 0.7rem;
+}
+
+.contenedor__footer .contact ul a {
+  text-decoration: none;
+  color: grey;
+}
+
+.contenedor__footer .contact ul a:hover {
+  color: black;
+}
+
+.contenedor__footer .redesSociales {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contenedor__footer .redesSociales .facebook {
+  padding: 0.3rem;
+  color: grey;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 24px;
+}
+
+.contenedor__footer .redesSociales .facebook:hover {
+  font-size: 36px;
+  color: #3b5998;
+}
+
+.contenedor__footer .redesSociales .instagram {
+  padding: 0.3rem;
+  color: grey;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 24px;
+}
+
+.contenedor__footer .redesSociales .instagram:hover {
+  font-size: 36px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contenedor__footer .redesSociales .youtube {
+  padding: 0.3rem;
+  color: grey;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 24px;
+}
+
+.contenedor__footer .redesSociales .youtube:hover {
+  font-size: 36px;
+  color: #c4302b;
+}
+
+.contenedor__footer .redesSociales .twitter {
+  padding: 0.3rem;
+  color: grey;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 24px;
+}
+
+.contenedor__footer .redesSociales .twitter:hover {
+  font-size: 36px;
+  color: #00acee;
+}
+
+.contenedor__footer .redesSociales .pinterest {
+  padding: 0.3rem;
+  color: grey;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 24px;
+}
+
+.contenedor__footer .redesSociales .pinterest:hover {
+  font-size: 36px;
+  color: #E60023;
+}
+
+.contenedor__footer .redesSociales a {
   text-decoration: none;
 }
 
-.contenedor__footer a:hover {
-  color: blue;
+.contenedor__footer .copyText {
+  width: 100%;
+  color: white;
+  background-color: black;
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contenedor__footer .copyText p {
+  padding: 0.3rem 0rem 0.3rem 0rem;
+  margin: 0px;
 }
 
 .titleContacto {
@@ -12786,7 +12921,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos], [data-aos][data-aos][data-
 
 .imgContacto {
   height: 500px;
-  margin: 7rem 1rem 7rem 5rem;
+  margin: 7rem 0rem 7rem 2rem;
   background-image: url(../img/contacto/email.jpg);
   background-size: cover;
   background-position: center;
@@ -12795,7 +12930,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos], [data-aos][data-aos][data-
 
 .formContacto {
   height: 500px;
-  margin: 7rem 5rem 7rem 2rem;
+  margin: 7rem 5rem 7rem 0rem;
 }
 
 .titleQuienes {
@@ -12869,5 +13004,35 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos], [data-aos][data-aos][data-
 
 .trabajos {
   margin: 3rem 0rem 4rem 0rem;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .atajos1, .atajos2, .contact {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1320px;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */

@@ -16,8 +16,9 @@
     }
 }
 .imgContacto{
+    // width: auto;
     height: 500px;
-    margin: 7rem 1rem 7rem 5rem;
+    margin: 7rem 0rem 7rem 2rem;
     background-image: url(../img/contacto/email.jpg);
     background-size: cover;
     background-position: center;
@@ -25,5 +26,6 @@
 }
 .formContacto{
     height: 500px;
-    margin: 7rem 5rem 7rem 2rem;
+    margin: 7rem 5rem 7rem 0rem;
+    // padding-left: 3rem;
 }
